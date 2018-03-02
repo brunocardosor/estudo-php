@@ -8,8 +8,5 @@
 
 require_once ("config.php");
 
-$sql = new SQL();
-
-$usuarios = $sql -> select("SELECT * FROM tb_usuario");
-
-echo json_encode($usuarios);
+$usuario = new Usuario();
+$usuario->login('brunocardosor','bpcrc324');
