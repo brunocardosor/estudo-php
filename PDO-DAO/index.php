@@ -9,4 +9,7 @@
 require_once ("config.php");
 
 $usuario = new Usuario();
-$usuario->login('brunocardosor','bpcrc324');
+$usuario->setDescricaoLogin('aluno');
+$usuario->setDescricaoSenha('@123@123');
+$usuario->addUsuario();
+echo $usuario;

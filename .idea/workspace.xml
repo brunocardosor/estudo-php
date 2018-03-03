@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be576917-90be-418e-8d60-ea5015681107" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/PDO-DAO/Class/SQL.php" afterPath="$PROJECT_DIR$/PDO-DAO/Class/SQL.php" />
       <change beforePath="$PROJECT_DIR$/PDO-DAO/Class/Usuario.php" afterPath="$PROJECT_DIR$/PDO-DAO/Class/Usuario.php" />
       <change beforePath="$PROJECT_DIR$/PDO-DAO/index.php" afterPath="$PROJECT_DIR$/PDO-DAO/index.php" />
     </list>
@@ -63,27 +61,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PDO-DAO/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="207">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PDO-DAO/Class/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="133" column="68" lean-forward="true" selection-start-line="133" selection-start-column="68" selection-end-line="133" selection-end-column="68" />
+            <state relative-caret-position="443">
+              <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding>
-                <marker date="1520030798564" expanded="true" signature="1652:1696" ph="SELECT * FRO... tb_usuario" />
-                <marker date="1520030798564" expanded="true" signature="2142:2166" ph="SELECT * FRO... tb_usuario" />
-                <marker date="1520030798564" expanded="true" signature="2142:2181" ph="SELECT * FRO... tb_usuario" />
-                <marker date="1520030798564" expanded="true" signature="2297:2360" ph="SELECT * FRO... tb_usuario" />
-                <marker date="1520030798564" expanded="true" signature="2638:2713" ph="SELECT * FRO... tb_usuario" />
+                <marker date="1520036894644" expanded="true" signature="1907:1951" ph="SELECT * FRO... tb_usuario" />
+                <marker date="1520036894644" expanded="true" signature="2178:2202" ph="SELECT * FRO... tb_usuario" />
+                <marker date="1520036894644" expanded="true" signature="2178:2217" ph="SELECT * FRO... tb_usuario" />
+                <marker date="1520036894644" expanded="true" signature="2333:2396" ph="SELECT * FRO... tb_usuario" />
+                <marker date="1520036894644" expanded="true" signature="2674:2749" ph="SELECT * FRO... tb_usuario" />
+                <marker date="1520036894644" expanded="true" signature="3586:3607" ph="UPDATE tb_usuario... " />
+                <marker date="1520036894644" expanded="true" signature="3586:3647" ph="UPDATE tb_usuario... " />
               </folding>
             </state>
           </provider>
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/PDO-DAO/Usuario.php" />
         <option value="$PROJECT_DIR$/PDO-DAO/config.php" />
         <option value="$PROJECT_DIR$/PDO-DAO/Class/SQL.php" />
-        <option value="$PROJECT_DIR$/PDO-DAO/Class/Usuario.php" />
         <option value="$PROJECT_DIR$/PDO-DAO/index.php" />
+        <option value="$PROJECT_DIR$/PDO-DAO/Class/Usuario.php" />
       </list>
     </option>
   </component>
@@ -262,7 +262,7 @@
       <workItem from="1518879444962" duration="1307000" />
       <workItem from="1518887473721" duration="6238000" />
       <workItem from="1519950005490" duration="5981000" />
-      <workItem from="1520025193398" duration="2748000" />
+      <workItem from="1520025193398" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="Estudo de namespace, mysqli e PDO adicionados">
       <created>1518890915026</created>
@@ -282,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33871000" />
+    <option name="totallyTimeSpent" value="37136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="775" extended-state="0" />
@@ -398,11 +398,13 @@
         <state relative-caret-position="2162">
           <caret line="99" column="69" lean-forward="true" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="69" />
           <folding>
-            <marker date="1520030798564" expanded="true" signature="1652:1696" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2142:2166" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2142:2181" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2297:2360" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2638:2713" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="1907:1951" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2178:2202" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2178:2217" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2333:2396" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2674:2749" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="3586:3607" ph="UPDATE tb_usuario... " />
+            <marker date="1520036894644" expanded="true" signature="3586:3647" ph="UPDATE tb_usuario... " />
           </folding>
         </state>
       </provider>
@@ -571,16 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDO/exemplo-02.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <marker date="1518893499117" expanded="true" signature="238:280" ph="DELETE FROM tb_usuario... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PDO-DAO/Class/SQL.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -597,25 +589,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDO-DAO/Class/Usuario.php">
+    <entry file="file://$PROJECT_DIR$/PDO-DAO/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="133" column="68" lean-forward="true" selection-start-line="133" selection-start-column="68" selection-end-line="133" selection-end-column="68" />
+        <state relative-caret-position="207">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDO/exemplo-02.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
-            <marker date="1520030798564" expanded="true" signature="1652:1696" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2142:2166" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2142:2181" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2297:2360" ph="SELECT * FRO... tb_usuario" />
-            <marker date="1520030798564" expanded="true" signature="2638:2713" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1518893499117" expanded="true" signature="238:280" ph="DELETE FROM tb_usuario... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDO-DAO/index.php">
+    <entry file="file://$PROJECT_DIR$/PDO-DAO/Class/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="443">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <marker date="1520036894644" expanded="true" signature="1907:1951" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2178:2202" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2178:2217" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2333:2396" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="2674:2749" ph="SELECT * FRO... tb_usuario" />
+            <marker date="1520036894644" expanded="true" signature="3586:3607" ph="UPDATE tb_usuario... " />
+            <marker date="1520036894644" expanded="true" signature="3586:3647" ph="UPDATE tb_usuario... " />
+          </folding>
         </state>
       </provider>
     </entry>

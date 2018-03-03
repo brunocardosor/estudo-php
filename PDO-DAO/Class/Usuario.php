@@ -23,6 +23,13 @@ class Usuario
         ));
     }
 
+    private function setData($row){
+        $this->setIdUsuario($row['idusuario']);
+        $this->setDescricaoLogin($row['login']);
+        $this->setDescricaoSenha($row['senha']);
+        $this->setDateCadastro(new DateTime($row['dtcadastro']));
+    }
+
     /**
      * @return mixed
      */
@@ -93,11 +100,7 @@ class Usuario
             ":id" => $id
         ));
         if(isset($result[0])){
-            $row = $result[0];
-            $this->setIdUsuario($row['idusuario']);
-            $this->setDescricaoLogin($row['login']);
-            $this->setDescricaoSenha($row['senha']);
-            $this->getDateCadastro(new DateTime($row['dtcadastro']));
+            $this->setData($result[0]);
         }
     }
 
@@ -125,14 +128,36 @@ class Usuario
             ":senha"=> $senha
         ));
         if(isset($result[0])){
-            $row = $result[0];
-            $this->setIdUsuario($row['idusuario']);
-            $this->setDescricaoLogin($row['login']);
-            $this->setDescricaoSenha($row['senha']);
-            $this->setDateCadastro(new DateTime($row['dtcadastro']));
+            $this->setData($result[0]);
         } else {
             throw new Exception("Login ou Senha incompatível", 405);
         }
+    }
+
+    /**
+     * @param $usuario
+     * @throws Exception
+     */
+    public function addUsuario(){
+        $sql = new SQL();
+        $result = $sql->select("CALL sp_usuario_insert(:login, :senha)", array(
+            ':login'=>$this->getDescricaoLogin(),
+            ':senha'=>$this->getDescricaoSenha()
+        ));
+        if(isset($result[0])){
+            $this->setData($result[0]);
+        } else {
+            throw new Exception("Não foi possível inserir o usuário", 400);
+        }
+    }
+
+    function update($login, $senha){
+        $sql = new SQL();
+        $sql->query("UPDATE tb_usuario SET login=:login, senha=:senha WHERE id=:id", array(
+           ':login'=> $login,
+            ':senha'=> $senha,
+            ':id' => $this->getIdUsuario()
+        ));
     }
 
 }
