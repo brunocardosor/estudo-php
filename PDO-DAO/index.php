@@ -13,3 +13,5 @@ $usuario->setDescricaoLogin('aluno');
 $usuario->setDescricaoSenha('@123@123');
 $usuario->addUsuario();
 echo $usuario;
+$usuario->delete();
+echo $usuario;
