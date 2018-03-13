@@ -1,0 +1,9 @@
+{
+    "name": "administrador/raintpl",
+    "type": "project",
+    "require": {
+        "rain/raintpl": ">=3.0.0",
+        "phpmailer/phpmailer":"~5.2."
+    },
+    "minimum-stability": "dev"
+}
