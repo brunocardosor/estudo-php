@@ -1,0 +1,9 @@
+{
+    "name": "brunocardosor/composer",
+    "description": "curso PHP7",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer":"*"
+    }
+}
